@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fondo{
+    background-color: rgb(0, 9, 39);
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.grade{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,255,171,0.6446953781512605) 1%, rgba(255,231,0,1) 98%, rgba(255,231,0,1) 100%);
+}
+
+.grade2{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,1,1,0.6446953781512605) 1%, rgba(25,0,255,1) 100%);
+
+
+}
+
+.textGrade{
+
+        font-size: 72px;
+        background: linear-gradient(90deg, rgba(255,1,1,0.6446953781512605) 39%, rgba(255,255,240,1) 71%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+}
